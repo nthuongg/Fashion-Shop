@@ -1,0 +1,14 @@
+.image img{
+    width: 350px;
+    height: 370px;
+    margin-left: 110px;
+}
+.image{
+    margin-bottom: 20px;
+}
+div.image:hover {
+    opacity:0.7;
+}
+figure:hover{
+    opacity:0.7;
+}

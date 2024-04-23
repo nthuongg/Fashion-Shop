@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&display=swap');
+section{
+    font-family: 'Cinzel',sans-serif;
+}
+main{
+    font-family: 'Cinzel',sans-serif;
+}
+nav{
+    font-family: 'Jost', sans-serif;
+}
+footer{
+    font-family: 'Jost', sans-serif;
+}
+header{
+    font-family: 'Jost', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.8);
+}
+p.table-hover:hover {
+    color: #0a53be;
+}
+.text-uppercase{
+    text-decoration: none;
+    color: deeppink;
+    font-family: 'Cinzel', sans-serif;
+}
+.alignment>p{
+    margin-bottom: 0rem;
+    font-size: 15px;
+}
+.alignment:hover{
+    color: dodgerblue;
+}
+.element-click:active{
+    color: red;
+}

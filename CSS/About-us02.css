@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&display=swap');
+body{
+    font-family: 'Jost', sans-serif;
+}
+
+.about-top{
+    background-image: url("../Media/background00.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    margin-top: 0px;
+    margin-bottom: 110px;
+    padding: 0px 15px 0px 15px;
+    position: relative;
+
+
+}
+.about-background-overlay{
+    background-color: #00000000;
+    background-image: linear-gradient(to right, #FFFFFF 60%, #F2295B00 100%);
+    opacity: 0.65;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+.about-column{
+    min-height: 400px;
+    max-width: 1140px;
+    align-items: center;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    width: 50%;
+}
+.about-widget-wrap{
+    position: relative;
+    width: 100%;
+    min-width: 768px;
+    text-align: center;
+}
+.about-heading-title{
+    font-family: 'Cinzel', sans-serif;
+    font-size: 62px;
+    font-weight: normal;
+    line-height: 1.1em;
+    padding: 0;
+    margin: 0;
+}
+
+div {
+    display: block;
+}
+.video-content{
+    background-image: url("../Media/about03.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    width: 150%;
+    text-align: center;
+    display: flex;
+    margin-bottom: 110px;
+    font-weight: normal;
+}
+
+/*.about-box1{*/
+/*    padding: 70px 70px 70px 70px;*/
+/*    border-style: solid;*/
+/*    border-width: 3px 3px 3px 3px;*/
+/*    border-color: #A7A7A7;*/
+/*    width: 60%;*/
+/*    background-color: rgba(255, 255, 255, 0.89);*/
+/*    !*box-shadow: -10px 0px 5px rgb(0, 0, 0);*!*/
+/*    transform: translate(445px, -253px);*/
+
+/*}*/
+.about-box-new{
+    height: auto;
+    width: 120%;
+    box-sizing: border-box;
+    margin: 50px 0px;
+    padding: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+    background-color: #ffffffb8;
+    transform: translateY(300px) translateX(-140px);
+
+}
+.about-box-new-center{
+    height: auto;
+    box-sizing: border-box;
+    padding: 60px 30px;
+    border-style: solid;
+    border-width: 3px 3px 3px 3px;
+    border-color: rgba(167, 167, 167, 0.68);
+}
+.item{
+    width: 170px;
+    margin-left: 75px;
+}
+.row1{
+    margin-top: 10px ;
+}
+
+.about-top>h1 {
+    font-size: 62px;
+    color: black;
+
+}
+.about-section {
+    margin: 60px 0;
+    padding: 0px 15px;
+}
+.about-container {
+    max-width: 1140px;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+}
+
+
+.about-element {
+    width: 100%;
+    text-align: left;
+    margin: 0 50px 0 0;
+}
+
+h1{
+    font-family: 'Cinzel', sans-serif;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 50px;
+}
+p{
+    margin: 0px;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.54);
+    line-height: 24px;
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+}
+.about-element-second{
+    margin: 10px 0;
+    display: inline-block;
+    width: 100%;
+
+}
+.about-element-flex{
+    width: 50%;
+    float: left;
+    text-align: center;
+
+}
+.about-element-flex-01{
+    background-color: #f8f8f8;
+    margin: 30px 20px 20px 0px;
+    padding: 40px 30px 40px 30px;
+    border-style: solid;
+    border-width: 3px 3px 3px 3px;
+    border-color: #D9D9D938;
+
+
+}
+.about-element-flex-02{
+    background-color: #f8f8f8;
+    margin: 30px 0px 20px 20px;
+    padding: 40px 30px 40px 30px;
+    border-style: solid;
+    border-width: 3px 3px 3px 3px;
+    border-color: #D9D9D938;
+
+}
+.about-element-flex-03{
+    background-color: #f8f8f8;
+    margin: 20px 20px 0px 0px;
+    padding: 40px 30px 40px 30px;
+    border-style: solid;
+    border-width: 3px 3px 3px 3px;
+    border-color: #D9D9D938;
+
+}
+.about-element-flex-04{
+    background-color: #f8f8f8;
+    margin: 20px 0px 0px 20px;
+    padding: 40px 30px 40px 30px;
+    border-style: solid;
+    border-width: 3px 3px 3px 3px;
+    border-color: #D9D9D938;
+}
+.about-widget{
+    text-align: center;
+    position: relative;
+}
+.about-widget-background{
+    background-image: url(../Media/about-background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 0.6;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+.about-widget-image {
+    height: 100%;
+    position: relative;
+}
+.about-widget-image img {
+    height: auto;
+    max-width: 100%;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    width: 80%;
+}
+
+.about-column-33{
+    width: 33.333%;
+    position: relative;
+    display: flex;
+}
+.about-icon{
+    max-width: 100%;
+    align-content: center;
+    align-items: center;
+    display: flex;
+}
+.about-icon-wrapper{
+    max-width: 100%;
+    padding: 29px 25px 28px 25px;
+    background-color: rgba(0, 0, 0, 0.04);
+    border-style: solid;
+    border-width: 10px;
+    border-color: #FFFFFF;
+    border-radius: 100% 100% 100% 100%;
+    box-shadow: -10px 0px 5px rgba(0, 0, 0, 0.04);
+    position: absolute;
+}
+.about-element-background>h4 {
+    font-family: 'Cinzel', sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+
+}
+.about-element-background>p{
+    font-size: 17px;
+    margin-bottom: 0rem;
+}
+
+.about-element-background{
+    max-width: 100%;
+    width: auto;
+    margin: 0px 0px 0px 104px;
+    padding: 8px 50px 11px 45px;
+    background-color:  #F2295B00; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.04), #F2295B00);
+    line-height: 34px;
+}
+

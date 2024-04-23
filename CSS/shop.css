@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&display=swap');
+section{
+    font-family: 'Cinzel',sans-serif;
+    font-weight: 600;
+}
+nav{
+    font-family: 'Jost', sans-serif;
+}
+main{
+    font-family: 'Cinzel',sans-serif;
+    font-weight: 600;
+}
+.img-fluid {
+   margin-bottom: 10px;
+    padding: 5px;
+    width: 100%;
+    float:left;
+}
+.viet1{
+    margin-top: 5px;
+    padding-bottom: 18px;
+}
+.form-select{
+    margin-top: 5px;
+    padding-bottom: 10px;
+}
+.d-flex{
+    margin-top: 5px;
+    padding-bottom: 50px;
+}
+.plon{
+    padding-bottom: 40px;
+}
+
+.jacket{
+    padding-top: 25px;
+    padding-bottom: 45px;
+}
+.wedding{
+    padding-top: 25px;
+    padding-bottom: 45px;
+}
+.fullshirt{
+    padding-top: 25px;
+    padding-bottom: 45px;
+}
+.heelshoe{
+    padding-top: 25px;
+    padding-bottom: 45px;
+}
+.anh6cai{
+    width: 200px;
+    height: 50px;
+}
+a{
+    text-decoration: none;
+    transition: all 30ms;
+}
+u:hover{
+    color: #0a53be;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.rate {
+    float: left;
+    height: 46px;
+    padding: 0 10px;
+}
+.rate:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.rate:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+    color:#ccc;
+}
+.rate:not(:checked) > label:before {
+    content: '★ ';
+}
+.rate > input:checked ~ label {
+    color: #ffc700;
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+    color: #f3d828;
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+    color: #d91b2b;
+}
+
+/* Modified from: https://github.com/mukulkant/Star-rating-using-pure-css */
+
+
+
+
